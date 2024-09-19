@@ -1,0 +1,24 @@
+{
+  public static void main(string[] men)
+  {
+    //lendo valores númericos
+    Sting sValor = JOptionPane.showInputDialog
+      ("Digite o numero inteiro: ");
+    String sNumero = JOptionPane.showInputDialog
+      ("Digite o numero inteiro: ");
+      
+      
+    //convertendo para real
+    int valor = integer.parseInt(sValor);
+    int numero = Integer.parseInt(sNumero);
+    
+    //calculando os valores numericos
+    int soma = valor + numero;
+    if(soma > 10)
+       System.out.println(" a soma e maior que 10: ")
+       
+    //apresentando o resultado
+    if(soma > 10){,
+       JOptionPane.showMessageDialog(null, "a soma maior que 10: " + soma);
+    }
+ }

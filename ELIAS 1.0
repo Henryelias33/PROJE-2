@@ -1,0 +1,21 @@
+import javax.swing.JOptionPane;  
+public class IMC
+ {
+   public static void main(String[] args)
+   {
+      //lendo os dados
+      String sPeso = JOptionpane.showInoutDialog(
+         "Digite seu peso em Quilogramas: ");
+      String sAltura = JOptionpane.showInoutDialog(
+         "Digite sua altura em Metros:");
+         
+         
+      //convertendo para reais
+      double peso = Double.parseDouble(sPeso);
+      double altura = Double.parceDouble(sAltura);
+      
+      //calculando o imc
+      double imc = peso / (altura * altura);
+      
+      //apresentando o resultado
+      JOptionPane.showMessageDialog(null, "IMC = " + imc);
